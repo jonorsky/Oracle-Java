@@ -66,3 +66,5 @@ To actually run the program, we must use Java Interpreter, **java**. To do so, p
 > java Example
 
 Java line by line, **comments** are ignored by the compiler
+
+- **Variable* is a named memory location that can be assigned a value. Further, the value of a variable can be change during the execution of the program.
