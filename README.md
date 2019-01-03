@@ -68,3 +68,31 @@ To actually run the program, we must use Java Interpreter, **java**. To do so, p
 Java line by line, **comments** are ignored by the compiler
 
 - **Variable* is a named memory location that can be assigned a value. Further, the value of a variable can be change during the execution of the program.
+
+## Chapter 2 - Introducing Data Types and Operators
+Why Data types are important? Data types are specially important in Java because it is a strongly typed language. This means that all operations are type-checked by the compiler for type compatibility.
+
+#### Java Primitive Types
+Java Primitive Types is used to indicate that these types are not objects in an object-oriented sense, but rather, normal binary values. For efficiency concern.
+
+Java contains two general categories of built-in data types:
+
+- Object-oriented
+- non Object-oriented
+
+Object Oriented types are defined by classes.
+
+There are eigth primitive types or data types in Core Java:
+
+Type | Meaning
+--- | ---
+boolean | Represents true/false values
+byte | 8-bit integer
+char | Character
+double | Double-precision floating point
+float | Single-precision floating point
+int | Integer
+long | Long integer
+short | Short integer
+
+Java defines four integer types: **byte**,**short**,**int**, and **long**.
