@@ -96,3 +96,28 @@ long | Long integer
 short | Short integer
 
 Java defines four integer types: **byte**,**short**,**int**, and **long**.
+
+Hexadecimal, Octal, and Binary Literals
+The number system based on 8 is called *octal*, and it uses the digits o through 7. In octal the number 10 is the same as 8 in decimal. The base 16 number system is Hexadecimal and uses the digits o through 9 plus the letters A through F, which stand for 10,11,12,13,14, and 15.
+
+- A Hexadecimal literal must begin with ox or oX(a zero followed by an x or X)
+
+- An ocat literal begins with a zero.
+
+````
+hex = 0xFF;
+oct = 011
+````
+
+Escape Sequence | Description
+--- | ---
+\\` | Single Quote
+\\" | Double Quote
+\\\ | Backslash
+\\r | Carraige return
+\\n | New line
+\\f | Form feed
+\\t | Horizontal tab
+\\b | Backspace
+\\ddd | Octal constant
+\\uxxxx | Hexadecimal constant
