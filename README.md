@@ -121,3 +121,19 @@ Escape Sequence | Description
 \\b | Backspace
 \\ddd | Octal constant
 \\uxxxx | Hexadecimal constant
+
+###Variables
+
+```
+type var-name;
+```
+
+where type is the data type of the variable, and var-name is its name. You can declare a variable of any valid type, including the simple types just described, and every variable will have a type.
+
+###Initializng a Variable
+
+```
+type var = value;
+```
+
+Here, value is the value that is given to var when var is created. The value must be compatible with the specified type.
