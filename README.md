@@ -137,3 +137,5 @@ type var = value;
 ```
 
 Here, value is the value that is given to var when var is created. The value must be compatible with the specified type.
+
+###The Scope and Lifetime of Variables
