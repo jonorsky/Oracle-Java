@@ -138,4 +138,25 @@ type var = value;
 
 Here, value is the value that is given to var when var is created. The value must be compatible with the specified type.
 
-###The Scope and Lifetime of Variables
+### Operators
+Java provides a rich operator environment. An *operator* is a symbol that tells the compiler to perform a specific mathematical or logical manipulation.
+
+Java has four general classes of operators:
+```
+Arithmetic
+Bitwise
+Relational
+Logical
+```
+
+### Arithmetic Operators
+
+Operator | Meaning
+--- | ---
++ | Additional (also unary plus)
+- | subtraction (also unary minus)
+* | Multiplication
+/ | Division
+% | Modulus
+++ | Increment
+-- | Decrement
