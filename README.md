@@ -176,3 +176,15 @@ x = 10;
 y = x++;
 
 y is equal to 10
+
+
+### Relational and Logical Operators
+
+Operator | Meaning
+--- | ---
+== | Equal to
+!= | Not equal to
+> | Greater than
+< | Less than
+>= | Greater than or Equal to
+<= Less than or equal to
