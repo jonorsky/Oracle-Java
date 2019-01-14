@@ -161,3 +161,18 @@ Operator | Meaning
 % | Modulus
 ++ | Increment
 -- | Decrement
+
+
+Increment and Decrement
+```
+x = 10;
+y = ++x;
+```
+
+y is equal to 11
+
+```
+x = 10;
+y = x++;
+
+y is equal to 10
