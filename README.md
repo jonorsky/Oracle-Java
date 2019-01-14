@@ -122,7 +122,7 @@ Escape Sequence | Description
 \\ddd | Octal constant
 \\uxxxx | Hexadecimal constant
 
-###Variables
+### Variables
 
 ```
 type var-name;
@@ -130,7 +130,7 @@ type var-name;
 
 where type is the data type of the variable, and var-name is its name. You can declare a variable of any valid type, including the simple types just described, and every variable will have a type.
 
-###Initializng a Variable
+### Initializng a Variable
 
 ```
 type var = value;
@@ -149,6 +149,7 @@ Relational
 Logical
 ```
 
+
 ### Arithmetic Operators
 
 Operator | Meaning
@@ -160,3 +161,30 @@ Operator | Meaning
 % | Modulus
 ++ | Increment
 -- | Decrement
+
+
+Increment and Decrement
+```
+x = 10;
+y = ++x;
+```
+
+y is equal to 11
+
+```
+x = 10;
+y = x++;
+
+y is equal to 10
+
+
+### Relational and Logical Operators
+
+Operator | Meaning
+--- | ---
+== | Equal to
+!= | Not equal to
+> | Greater than
+< | Less than
+>= | Greater than or Equal to
+<= Less than or equal to
